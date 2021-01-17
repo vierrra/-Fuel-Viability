@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8840189225B3C63500E128C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840189125B3C63500E128C9 /* AppDelegate.swift */; };
+		8840189425B3C63500E128C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840189325B3C63500E128C9 /* SceneDelegate.swift */; };
+		8840189625B3C63500E128C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840189525B3C63500E128C9 /* ViewController.swift */; };
+		8840189925B3C63500E128C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8840189725B3C63500E128C9 /* Main.storyboard */; };
+		8840189B25B3C63700E128C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8840189A25B3C63700E128C9 /* Assets.xcassets */; };
+		8840189E25B3C63700E128C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8840189C25B3C63700E128C9 /* LaunchScreen.storyboard */; };
+		884018A925B3C63700E128C9 /* ViabilidadeCombustivelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884018A825B3C63700E128C9 /* ViabilidadeCombustivelTests.swift */; };
+		884018B425B3C63700E128C9 /* ViabilidadeCombustivelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884018B325B3C63700E128C9 /* ViabilidadeCombustivelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		884018A525B3C63700E128C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8840188625B3C63400E128C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8840188D25B3C63400E128C9;
+			remoteInfo = ViabilidadeCombustivel;
+		};
+		884018B025B3C63700E128C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8840188625B3C63400E128C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8840188D25B3C63400E128C9;
+			remoteInfo = ViabilidadeCombustivel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8840188E25B3C63500E128C9 /* ViabilidadeCombustivel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViabilidadeCombustivel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8840189125B3C63500E128C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8840189325B3C63500E128C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8840189525B3C63500E128C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8840189825B3C63500E128C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8840189A25B3C63700E128C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8840189D25B3C63700E128C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8840189F25B3C63700E128C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884018A425B3C63700E128C9 /* ViabilidadeCombustivelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViabilidadeCombustivelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		884018A825B3C63700E128C9 /* ViabilidadeCombustivelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViabilidadeCombustivelTests.swift; sourceTree = "<group>"; };
+		884018AA25B3C63700E128C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884018AF25B3C63700E128C9 /* ViabilidadeCombustivelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViabilidadeCombustivelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		884018B325B3C63700E128C9 /* ViabilidadeCombustivelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViabilidadeCombustivelUITests.swift; sourceTree = "<group>"; };
+		884018B525B3C63700E128C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8840188B25B3C63400E128C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884018A125B3C63700E128C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884018AC25B3C63700E128C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8840188525B3C63400E128C9 = {
+			isa = PBXGroup;
+			children = (
+				8840189025B3C63500E128C9 /* ViabilidadeCombustivel */,
+				884018A725B3C63700E128C9 /* ViabilidadeCombustivelTests */,
+				884018B225B3C63700E128C9 /* ViabilidadeCombustivelUITests */,
+				8840188F25B3C63500E128C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8840188F25B3C63500E128C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8840188E25B3C63500E128C9 /* ViabilidadeCombustivel.app */,
+				884018A425B3C63700E128C9 /* ViabilidadeCombustivelTests.xctest */,
+				884018AF25B3C63700E128C9 /* ViabilidadeCombustivelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8840189025B3C63500E128C9 /* ViabilidadeCombustivel */ = {
+			isa = PBXGroup;
+			children = (
+				8840189125B3C63500E128C9 /* AppDelegate.swift */,
+				8840189325B3C63500E128C9 /* SceneDelegate.swift */,
+				8840189525B3C63500E128C9 /* ViewController.swift */,
+				8840189725B3C63500E128C9 /* Main.storyboard */,
+				8840189A25B3C63700E128C9 /* Assets.xcassets */,
+				8840189C25B3C63700E128C9 /* LaunchScreen.storyboard */,
+				8840189F25B3C63700E128C9 /* Info.plist */,
+			);
+			path = ViabilidadeCombustivel;
+			sourceTree = "<group>";
+		};
+		884018A725B3C63700E128C9 /* ViabilidadeCombustivelTests */ = {
+			isa = PBXGroup;
+			children = (
+				884018A825B3C63700E128C9 /* ViabilidadeCombustivelTests.swift */,
+				884018AA25B3C63700E128C9 /* Info.plist */,
+			);
+			path = ViabilidadeCombustivelTests;
+			sourceTree = "<group>";
+		};
+		884018B225B3C63700E128C9 /* ViabilidadeCombustivelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				884018B325B3C63700E128C9 /* ViabilidadeCombustivelUITests.swift */,
+				884018B525B3C63700E128C9 /* Info.plist */,
+			);
+			path = ViabilidadeCombustivelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8840188D25B3C63400E128C9 /* ViabilidadeCombustivel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884018B825B3C63700E128C9 /* Build configuration list for PBXNativeTarget "ViabilidadeCombustivel" */;
+			buildPhases = (
+				8840188A25B3C63400E128C9 /* Sources */,
+				8840188B25B3C63400E128C9 /* Frameworks */,
+				8840188C25B3C63400E128C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViabilidadeCombustivel;
+			productName = ViabilidadeCombustivel;
+			productReference = 8840188E25B3C63500E128C9 /* ViabilidadeCombustivel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		884018A325B3C63700E128C9 /* ViabilidadeCombustivelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884018BB25B3C63700E128C9 /* Build configuration list for PBXNativeTarget "ViabilidadeCombustivelTests" */;
+			buildPhases = (
+				884018A025B3C63700E128C9 /* Sources */,
+				884018A125B3C63700E128C9 /* Frameworks */,
+				884018A225B3C63700E128C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884018A625B3C63700E128C9 /* PBXTargetDependency */,
+			);
+			name = ViabilidadeCombustivelTests;
+			productName = ViabilidadeCombustivelTests;
+			productReference = 884018A425B3C63700E128C9 /* ViabilidadeCombustivelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		884018AE25B3C63700E128C9 /* ViabilidadeCombustivelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884018BE25B3C63700E128C9 /* Build configuration list for PBXNativeTarget "ViabilidadeCombustivelUITests" */;
+			buildPhases = (
+				884018AB25B3C63700E128C9 /* Sources */,
+				884018AC25B3C63700E128C9 /* Frameworks */,
+				884018AD25B3C63700E128C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884018B125B3C63700E128C9 /* PBXTargetDependency */,
+			);
+			name = ViabilidadeCombustivelUITests;
+			productName = ViabilidadeCombustivelUITests;
+			productReference = 884018AF25B3C63700E128C9 /* ViabilidadeCombustivelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8840188625B3C63400E128C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					8840188D25B3C63400E128C9 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					884018A325B3C63700E128C9 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 8840188D25B3C63400E128C9;
+					};
+					884018AE25B3C63700E128C9 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 8840188D25B3C63400E128C9;
+					};
+				};
+			};
+			buildConfigurationList = 8840188925B3C63400E128C9 /* Build configuration list for PBXProject "ViabilidadeCombustivel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8840188525B3C63400E128C9;
+			productRefGroup = 8840188F25B3C63500E128C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8840188D25B3C63400E128C9 /* ViabilidadeCombustivel */,
+				884018A325B3C63700E128C9 /* ViabilidadeCombustivelTests */,
+				884018AE25B3C63700E128C9 /* ViabilidadeCombustivelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8840188C25B3C63400E128C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8840189E25B3C63700E128C9 /* LaunchScreen.storyboard in Resources */,
+				8840189B25B3C63700E128C9 /* Assets.xcassets in Resources */,
+				8840189925B3C63500E128C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884018A225B3C63700E128C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884018AD25B3C63700E128C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8840188A25B3C63400E128C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8840189625B3C63500E128C9 /* ViewController.swift in Sources */,
+				8840189225B3C63500E128C9 /* AppDelegate.swift in Sources */,
+				8840189425B3C63500E128C9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884018A025B3C63700E128C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884018A925B3C63700E128C9 /* ViabilidadeCombustivelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884018AB25B3C63700E128C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884018B425B3C63700E128C9 /* ViabilidadeCombustivelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		884018A625B3C63700E128C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8840188D25B3C63400E128C9 /* ViabilidadeCombustivel */;
+			targetProxy = 884018A525B3C63700E128C9 /* PBXContainerItemProxy */;
+		};
+		884018B125B3C63700E128C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8840188D25B3C63400E128C9 /* ViabilidadeCombustivel */;
+			targetProxy = 884018B025B3C63700E128C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8840189725B3C63500E128C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8840189825B3C63500E128C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8840189C25B3C63700E128C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8840189D25B3C63700E128C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		884018B625B3C63700E128C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		884018B725B3C63700E128C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		884018B925B3C63700E128C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J89XP6WQS5;
+				INFOPLIST_FILE = ViabilidadeCombustivel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.stant.ViabilidadeCombustivel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		884018BA25B3C63700E128C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J89XP6WQS5;
+				INFOPLIST_FILE = ViabilidadeCombustivel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.stant.ViabilidadeCombustivel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		884018BC25B3C63700E128C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J89XP6WQS5;
+				INFOPLIST_FILE = ViabilidadeCombustivelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.stant.ViabilidadeCombustivelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViabilidadeCombustivel.app/ViabilidadeCombustivel";
+			};
+			name = Debug;
+		};
+		884018BD25B3C63700E128C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J89XP6WQS5;
+				INFOPLIST_FILE = ViabilidadeCombustivelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.stant.ViabilidadeCombustivelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViabilidadeCombustivel.app/ViabilidadeCombustivel";
+			};
+			name = Release;
+		};
+		884018BF25B3C63700E128C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J89XP6WQS5;
+				INFOPLIST_FILE = ViabilidadeCombustivelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.stant.ViabilidadeCombustivelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViabilidadeCombustivel;
+			};
+			name = Debug;
+		};
+		884018C025B3C63700E128C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J89XP6WQS5;
+				INFOPLIST_FILE = ViabilidadeCombustivelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.stant.ViabilidadeCombustivelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViabilidadeCombustivel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8840188925B3C63400E128C9 /* Build configuration list for PBXProject "ViabilidadeCombustivel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884018B625B3C63700E128C9 /* Debug */,
+				884018B725B3C63700E128C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884018B825B3C63700E128C9 /* Build configuration list for PBXNativeTarget "ViabilidadeCombustivel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884018B925B3C63700E128C9 /* Debug */,
+				884018BA25B3C63700E128C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884018BB25B3C63700E128C9 /* Build configuration list for PBXNativeTarget "ViabilidadeCombustivelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884018BC25B3C63700E128C9 /* Debug */,
+				884018BD25B3C63700E128C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884018BE25B3C63700E128C9 /* Build configuration list for PBXNativeTarget "ViabilidadeCombustivelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884018BF25B3C63700E128C9 /* Debug */,
+				884018C025B3C63700E128C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8840188625B3C63400E128C9 /* Project object */;
+}
